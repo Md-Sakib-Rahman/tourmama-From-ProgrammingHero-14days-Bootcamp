@@ -165,18 +165,16 @@ border-radius: 30px;
 }
 .author-section{
     display: flex;
-    justify-content: space-between; /* Pushes author to the left, stars to the right */
+    justify-content: space-between; 
     align-items: center;
     gap: 20px;
    
    
-    /* display: flex;
-    justify-content: right;
-    align-items: center; */
+    
 }
 .author{
     text-align: center;
-    flex: 1; /* Optional: allows it to grow and center more smoothly */
+    flex: 1; 
     
 }
 .author h2{
@@ -190,7 +188,7 @@ border-radius: 30px;
     right: 10px;
     bottom: 40px;
     text-align: right;
-    flex: 1; /* Optional: allows it to grow and center more smoothly */
+    flex: 1; 
 }
 footer{
     background-color: white;
