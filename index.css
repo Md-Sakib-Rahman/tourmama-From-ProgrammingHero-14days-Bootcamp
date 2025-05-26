@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #ffffff;
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(235, 220, 255, 1) 100%);
+}
+header{
+    max-width: 1260px;
+    max-height: 638px;
+
+    margin: 80px auto;
+    padding: 20px;
+    border: #fec0f4 solid 1px;
+    border-radius: 50px;
+    background-image: url('./images/hero-bg.png');
+    background-repeat: repeat;
+    background-size: 25%;
+    background-position: top left;
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+header > div >div> h1{
+    font-size:60px;
+}
+.header-images{
+    max-width: 600px;
+}
+.secondary-btn{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    width: 140px;
+    height: 45px;
+    border: #872BFF solid 1px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+.primary-btn{
+    color: white;
+    background-color: #872BFF;
+    width: 140px;
+    height: 45px;
+    border: none;
+    border-radius: 40px;
+    font-weight: bold;
+}
+.btn-grp{
+    margin-top: 40px;
+}
+#services,  #top-asia{
+    text-align: center;
+}
+.services-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.service-card{
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 40px;
+
+margin: 60px 0px;
+font-size: 18px;
+
+width: 350px;
+height: 400px;
+background-color: white;
+color: rgba(0, 0, 0, 0.70);
+padding: 10px;
+border-radius: 30px;
+}
+.service-card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.service-card h2{
+    font-size: 28px;
+    color: black;
+}
+.top-asia-card-div{
+    margin-top: 40px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+#top-asia{
+    max-width: 1260px;
+    margin: auto;
+}
+.top-asia-card{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.top-card-text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: rgba(0, 0, 0, 0.70);
+}
+.top-card-text img{
+    width: 100px;
+}
+.top-asia-card > div > img {
+    max-width: 406px;
+}
+.countries{
+    text-align: center;
+    margin-top: 60px;
+}
+.country-btn{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1260px;
+    margin: auto;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.country-btn button{
+    height: 120px;
+    font-size: 32px;
+    background-color: white;
+    color: black;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.explore-button{
+    margin:  60px 0px;
+}
+.review{
+    text-align: center;
+    margin-bottom: 150px;
+}
+.review-container{
+    
+    position: relative;
+    background-color: white;
+    color: black;
+    max-width: 1260px;
+    margin: 60px auto;
+    
+    padding: 40px;
+    border-radius: 30px;
+}
+.review-container >div>p{
+    
+    margin-bottom: 70px;
+}
+.author-section{
+    display: flex;
+    justify-content: space-between; /* Pushes author to the left, stars to the right */
+    align-items: center;
+    gap: 20px;
+   
+   
+    /* display: flex;
+    justify-content: right;
+    align-items: center; */
+}
+.author{
+    text-align: center;
+    flex: 1; /* Optional: allows it to grow and center more smoothly */
+    
+}
+.author h2{
+    font-size: 20px;
+}
+.author p{
+    color: rgba(0, 0, 0, 0.603);
+}
+.stars{
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+    text-align: right;
+    flex: 1; /* Optional: allows it to grow and center more smoothly */
+}
+footer{
+    background-color: white;
+    
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    max-width: 1260px;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.589);
+}
+.icons{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color:#872BFF;
+}
